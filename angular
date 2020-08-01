@@ -22,3 +22,39 @@ else
     echo -e "\e[32m\nPROJECT NOT CREATED!!!!"
     exit
 fi
+
+                        #Automating angular project standart components, services
+
+#getting flags
+while getopts :l:a:s: option
+do
+case "${option}"
+in
+    l) lazy=${OPTARG};;
+    a) auth=${OPTARG};;
+    s) services=${OPTARG};;
+esac
+done
+
+#setting up components and services
+if [ auth = true ]
+then
+    echo -e "\e[32mCREATING AUTHENTICATION SERVICES AND COMPONENTS...\n"
+
+    if [ lazy = true ]
+    then
+        ng g m auth --routing --module=app  #--dryRun=true
+    fi
+fi
+
+ 
+if [ -n services ]
+then
+    for service in $services
+    do 
+        ng g s "services/${service}"  #--dryRun=true
+    done
+else
+    echo -e "\e[32mNO SERVICES ${services} PROVIDED!!!"
+fi
+
