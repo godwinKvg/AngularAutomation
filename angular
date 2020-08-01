@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ -z $1 ]
+then
+    read -p 'Enter the name of the project : ' projectName
+else
+    projectName=$1
+fi
+
+
+# Setting Up angular environment for the work
+echo -e "\e[32m \nBEGINING \e[5mTHE PROJECT INSTALLTION...";
+
+
+ng new $projectName --routing=false --style=scss -skip-test=true  #--dryRun=true 
+
+
+if [ -d $projectName  ]
+then
+    cd $projectName;
+else
+    echo -e "\e[32m\nPROJECT NOT CREATED!!!!"
+    exit
+fi
