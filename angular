@@ -7,6 +7,17 @@ else
     projectName=$1
 fi
 
+echo "Do you need to install Angular CLI ?"
+
+select choix in yes no
+do
+    if [ choix = "yes" ]
+    then
+        npm install -g @angular/cli
+    else
+        :
+    fi
+done
 
 # Setting Up angular environment for the work
 echo -e "\e[32m \nBEGINING \e[5mTHE PROJECT INSTALLTION...";
