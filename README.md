@@ -1,6 +1,6 @@
 # AngularAutomation
 
- ***********French****************
+                                                           ***********French****************
 
 Ce projet consiste à reduire la répétition de code à chaque création de projets en ajoutant automatiquement la création des services d'authentification (login, register, authguard, authService) et d'autres services que l'on peut spécifier depuis la ligne de commande.
 
@@ -14,7 +14,7 @@ services: générer des services en tant qu'argument indicateur dans la ligne de
 
 **./angular (nom du fichier bash) buyOnline -l true -a true -s "article product"**
 
-# Les étoiles ne sont pas dans mla commande
+# Les étoiles ne sont pas dans la commande
 
 Cette ligne de commande va:
 
@@ -29,7 +29,7 @@ J'aimerais donc si vous pouvez même si ce n'est qu'un petit projet contribuer e
 
 
 
-                                *************English**************
+                                                            *************English**************
 
 This project consists in reducing the repetition of code with each creation of projects by automatically adding the creation of authentication services (login, register, authguard, authService) and other services that can be specified from the command line.
 
