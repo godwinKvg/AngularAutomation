@@ -1,6 +1,6 @@
 # AngularAutomation
 
-                                                           ***********French****************
+# French
 
 Ce projet consiste à reduire la répétition de code à chaque création de projets en ajoutant automatiquement la création des services d'authentification (login, register, authguard, authService) et d'autres services que l'on peut spécifier depuis la ligne de commande.
 
@@ -10,11 +10,11 @@ paresseux: pour les modules à chargement paresseux
 services: générer des services en tant qu'argument indicateur dans la ligne de commande
 
 
-# La commande à exécuter
+### La commande à exécuter
 
-**./angular (nom du fichier bash) buyOnline -l true -a true -s "article product"**
+*./angular (nom du fichier bash) buyOnline -l true -a true -s "article product"*
 
-# Les étoiles ne sont pas dans la commande
+ Les étoiles ne sont pas dans la commande
 
 Cette ligne de commande va:
 
@@ -29,7 +29,7 @@ J'aimerais donc si vous pouvez même si ce n'est qu'un petit projet contribuer e
 
 
 
-                                                            *************English**************
+# English
 
 This project consists in reducing the repetition of code with each creation of projects by automatically adding the creation of authentication services (login, register, authguard, authService) and other services that can be specified from the command line.
 
@@ -38,11 +38,11 @@ lazy : for lazy-loading modules
 services : generate services as a flag argument in the command line
 
 
-# Command
+### Command
 
-**./angular (or the name of the bash file)      buyOnline -l true -a true -s "article product"**
+*./angular (or the name of the bash file)      buyOnline -l true -a true -s "article product"*
 
-# The stars are not in the command
+### The stars are not in the command
 
 This command line will :
 
